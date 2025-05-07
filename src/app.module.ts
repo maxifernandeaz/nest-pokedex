@@ -5,7 +5,6 @@ import { PokemonModule } from './pokemon/pokemon.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { CommonModule } from './common/common.module';
 import { SeedModule } from './seed/seed.module';
-import { Console } from 'console';
 import { ConfigModule } from '@nestjs/config';
 import { EnvConfiguration } from './config/env.config';
 import { joiValidationSchema } from './config/joi.validation';
